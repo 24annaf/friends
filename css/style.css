@@ -1,0 +1,246 @@
+body {
+  background-color: rgb(228, 212, 245);
+}
+
+h1, h2, h3 {
+  font-family: condor, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+
+/*header*/
+#logga {
+min-width: 100px;
+max-width: 500px;
+justify-self: center;
+width:auto;
+}
+
+img {
+  min-width: 100px;
+  max-width: 500px;
+  justify-self: center;
+  width:auto;
+}
+
+#top {
+  cursor: pointer;
+}
+
+.header {
+  background-color: rgb(77, 0, 154);
+  width: 100%;
+  height: 150px;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*header*/
+
+/*footer*/
+.footer, .footer1, .footer2{
+  background-color: rgb(77, 0, 154);
+  color: white;
+  width: 100%;
+  height: 40px;
+  padding-top: 15px;
+
+}
+
+
+/*bilden på första sidan */
+.img {
+    width: 100%;
+    align-self: start;
+}
+
+/* navigation bar*/
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  align-items: stretch;
+  background-color: rgb(77, 0, 154);
+  font-family: condor, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  width: 100%;
+  align-self: center;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  position: sticky; /* gör att den stannar på sidan hela tiden*/
+  top: 0;
+  z-index: 1;
+}
+
+a {
+  color: black;
+  display: block;
+  padding: 8px;
+  background-color: rgb(148, 148, 148);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.li {
+  display: flex;
+  display: block;
+  float: left;
+}
+
+a:hover {
+  background-color: rgb(78, 78, 78);
+  color: white;
+  transition: 150ms;
+}
+
+#active {
+  background-color: rgb(78, 78, 78);
+  color: white;
+}
+
+#watch {
+  float: right;
+}
+/* navigation bar*/
+
+
+/* HEM-sidan*/
+
+#bildtext {
+  font-style: italic;
+  font-size: 75%;
+  margin-top: auto;
+  text-align: center;
+}
+
+#p2 {
+  border-bottom: 8px solid grey;
+  padding-bottom: 20px;
+}
+
+.img-seasons {
+  width: 90%;
+  justify-self: left;
+}
+
+#h31 {
+  font-family: condor, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+/* KNAPPEN "KLICKA HÄR FÖR ATT KOMMA HÖGST UPP PÅ SIDAN" CSS */
+#top2, .top2{
+  background-color: transparent;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  font-weight: bold;
+
+  position: sticky;
+  top: 0;
+}
+
+span {
+  background: rgb(77, 0, 154);
+  height: 100%;
+  width: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.5s; /*den syns helt efter 0.5s*/
+}
+
+#top2:hover span {
+  width: 100%;
+}
+
+#top2:hover {
+  border: none;
+}
+
+.top2:hover span {
+  width: 100%;
+}
+
+.top2:hover {
+  border: none;
+}
+
+
+/* SIDAN OM KARAKTÄRERNA */
+
+
+/* bilderna på karaktärerna */
+.de6 {
+  width: 250px;
+  justify-content: space-between;
+  border-radius: 8px;
+  opacity: 0.9; /* gör bilden ljusare */
+  cursor: pointer;
+  padding: 15px;
+}
+
+.de6:hover {
+  box-shadow: 0 0 5px 5px rgb(234, 217, 255);
+  opacity: 1; /*gör bilden normal ljus*/
+}
+
+
+/*REKLAM RUTAN*/
+#hbo {
+  width: 150px;
+  opacity: 0.7;
+}
+
+#hbo:hover {
+  opacity: 1;
+  cursor: pointer; /* få muspekaren till en klickform */
+}
+
+#preklam , #pwikipedia , #pyoutube{
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  font-family: condor, sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+
+#youtube {
+  width: 150px;
+  cursor: pointer;
+  text-align: center;
+  opacity: 0.8;
+}
+
+#youtube:hover {
+  opacity: 1;
+}
+
+#wikipedia {
+  width: 150px;
+  opacity: 0.8;
+}
+
+#wikipedia:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+/*reklamrutan*/
+
+
+/* SIDAN OM FUN FACTS */
+
+#imgdoor, #milkshake, #centralperk {
+  padding-top: 10px;
+}
