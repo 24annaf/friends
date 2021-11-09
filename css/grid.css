@@ -310,4 +310,79 @@ img {
   #pyoutube, #preklam, #pwikipedia {
     font-size: 15px;
   }
+
+  #monica {
+    grid-column: 2/4;
+    grid-row: 4/5;
+  }
+
+  #p-m{
+    grid-column: 2/4;
+    grid-row: 5/6;
+  }
+
+  #rachel {
+    grid-column: 2/4;
+    grid-row: 6/7;
+  }
+
+  #p-r {
+    grid-column: 2/4;
+    grid-row: 7/8;
+  }
+
+  #phoebe {
+    grid-column: 2/4;
+    grid-row: 8/9;
+  }
+
+  #p-p {
+    grid-column: 2/4;
+    grid-row: 9/10;
+  }
+
+  #joey {
+    grid-column: 2/4;
+    grid-row: 11/12;
+  }
+
+  #p-j {
+    grid-column: 2/4;
+    grid-row: 12/13;
+  }
+
+  #chandler {
+    grid-column: 2/4;
+    grid-row: 13/14;
+  }
+
+  #p-c {
+    grid-column: 2/4;
+    grid-row: 14/15;
+  }
+
+  #ross {
+    grid-column: 2/4;
+    grid-row: 15/16;
+  }
+
+  #p-rg {
+    grid-column: 2/4;
+    grid-row: 16/17;
+  }
+
+  .footer2 {
+    grid-column: 1/-1;
+    grid-row: 17/18;
+  }
+
+  #top2 {
+    grid-column: 4/5;
+    grid-row: 16/17;
+  }
+
+  #h2-om {
+    grid-column: 2/4;
+    grid-row: 3/4;
+  }
 }
