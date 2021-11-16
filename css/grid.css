@@ -298,10 +298,10 @@ img {
     font-size: 12px;
   }
 
-  #monica, #rachel, #phoebe, #joey, #chandler, #ross, #hbo, #youtube, #wikipedia {
+  /*#monica, #rachel, #phoebe, #joey, #chandler, #ross, #hbo, #youtube, #wikipedia {
     min-width: 50%;
     max-width: 100%;
-  }
+  }*/
 
   #p-m, #p-r, #p-p, #p-j, #p-c, #p-rg {
     grid-column: 2/4;
@@ -384,5 +384,9 @@ img {
   #h2-om {
     grid-column: 2/4;
     grid-row: 3/4;
+  }
+
+  #hbo, #wikipedia, #youtube, #preklam, #pyoutube, #pwikipedia {
+    display: none;
   }
 }
