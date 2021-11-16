@@ -389,4 +389,12 @@ img {
   #hbo, #wikipedia, #youtube, #preklam, #pyoutube, #pwikipedia {
     display: none;
   }
+
+  #pdoor, #p8, #p9 {
+    grid-column: 1/-1;
+  }
+
+  .top2 {
+    display: none;
+  }
 }
