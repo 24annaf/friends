@@ -29,15 +29,22 @@ img {
   cursor: pointer;
 }
 
-.header {
+.header, .header1{
   background-color: rgb(77, 0, 154);
   width: 100%;
   height: 150px;
-  color: white;
   text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.header {
+  color: white;
+}
+
+.header1 {
+  color: rgb(77, 0, 154);
 }
 /*header*/
 
